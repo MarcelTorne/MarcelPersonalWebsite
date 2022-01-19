@@ -4,11 +4,11 @@ header-component{
 }
 
 body{
-    background-image: url('content/drawing_profile.png');
+    background-image: url('content/MarcelBackground.png');
     background-repeat: no-repeat;
     background-color: #e5e8eb;
-    background-position: left 200px top -450px;
-    background-size: 1300px;
+    background-position: left 550px top 140px;
+    background-size: 700px;
 }
 
 .my-history{
