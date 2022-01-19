@@ -3,12 +3,17 @@ header-component{
     margin-top: 0px;
 }
 
+html{
+    height: 100%;
+}
+
 body{
     background-image: url('content/MarcelBackground.png');
     background-repeat: no-repeat;
     background-color: #e5e8eb;
     background-position: left 550px top 140px;
     background-size: 700px;
+    height: 100%;
 }
 
 .my-history{
@@ -17,8 +22,22 @@ body{
     list-style-type: none;
 }
 
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
 .my-history li{
     margin: 10px;
+}
+
+.bottom-bar{
+    background-color: transparent !important;
 }
 
 @font-face {
@@ -28,3 +47,5 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+
+
